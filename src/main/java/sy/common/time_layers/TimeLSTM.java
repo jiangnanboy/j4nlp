@@ -22,7 +22,7 @@ public class TimeLSTM {
     List<LSTM> layers = null;
     INDArray h = null;
     INDArray c = null;
-    INDArray dH = null;
+    public INDArray dH = null;
     boolean stateful = false;
 
     public TimeLSTM() {}
